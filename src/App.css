@@ -1,0 +1,18 @@
+:root{
+    font-family:'Vinque', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('./assets/bg_frag.png');
+    background-size: cover;
+    background-color: #DBCCB8;
+    /* overflow-x: hidden; */
+}
+
+.border{
+    border-image-source: url('./assets/frame.png');
+    border-image-repeat: repeat;
+    border-image-slice: 40 40 40 40;
+    border-image-width: 20px 20px 20px 20px;
+}
+
+.background{
+
+ }
