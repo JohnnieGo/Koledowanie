@@ -3,6 +3,8 @@
     background-image: url('./assets/bg_frag.png');
     background-size: cover;
     background-color: #DBCCB8;
+    transition: 1s ease-out;
+
     /* overflow-x: hidden; */
 }
 
@@ -13,6 +15,43 @@
     border-image-width: 20px 20px 20px 20px;
 }
 
-.background{
+/* .forward-enter {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  
+  .forward-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 500ms;
+  }
+  
+  .forward-exit {
+    opacity: 0;
+    transform: translateX(0);
+  }
+  
+  .forward-exit-active {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 500ms;
+  } */
 
- }
+  .forward-enter {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  .forward-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 300ms, transform 300ms;
+  }
+  .forward-exit {
+    opacity: 1;
+    transform: scale(1);
+  }
+  .forward-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 350ms, transform 350ms;
+  }
