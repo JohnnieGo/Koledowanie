@@ -18,7 +18,7 @@ const Content = () => {
         </div>
         <div className="justify-self-end mt-8">
           <Button name="Więcej o kolędowaniu" color="red" link="/o-nas" />
-          <Button name="Zobacz śpiewnik" color="blue" link="spiewnik" />
+          <Button name="Zobacz śpiewnik" color="blue" link="/spiewnik" />
         </div>
       </div>
     </div>

@@ -3,8 +3,6 @@
     background-image: url('./assets/bg_frag.png');
     background-size: cover;
     background-color: #DBCCB8;
-    transition: 1s ease-out;
-
     /* overflow-x: hidden; */
 }
 
