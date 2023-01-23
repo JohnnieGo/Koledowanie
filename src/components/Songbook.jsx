@@ -9,7 +9,7 @@ const songList = songs.map((e, i) => {
       key={(e.title + " listEl").toLowerCase().replace(/ /g, "-")}
       href={encodeURI("/" + e["title"].toLowerCase().replace(/ /g, "-"))}
     >
-      <p className="cursor-pointer inline-block w-max hover:text-gold active:text-gold sm:text-xl md:text-2xl">
+      <p className="cursor-pointer inline-block w-max hover:text-gold active:text-gold sm: pb-1 tex sm:text-xl md:text-2xl">
         {i + 1 + ". " + e["title"]}
       </p>
     </Link>

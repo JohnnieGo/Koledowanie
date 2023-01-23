@@ -21,31 +21,16 @@ function About() {
           O kolędowaniu
         </h1>
       </div>
+      <div className="font-serif text-xl flex flex-col gap-4">
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id
-        felis justo. Orci varius natoque penatibus et magnis dis parturient
-        montes, nascetur ridiculus mus. Praesent volutpat turpis et arcu semper,
-        a molestie ligula viverra. Pellentesque non erat dolor. Integer rhoncus
-        sit amet mauris vel pharetra. Vivamus in dolor malesuada, vestibulum
-        mauris ac, pretium erat. Suspendisse hendrerit ornare turpis, vel
-        pretium risus.
-        <br />
-        Vestibulum ante justo, sodales in maximus eu, fringilla imperdiet eros.
-        Duis molestie condimentum neque in rutrum. Proin interdum, neque sed
-        dignissim condimentum, risus odio scelerisque magna, id varius erat
-        nulla in dui. Fusce a justo ex. Etiam sed bibendum velit. Etiam dictum
-        est at ipsum pellentesque, nec elementum lectus ultricies. Mauris sed
-        massa malesuada, blandit nunc vel, suscipit nisi. Nulla maximus purus a
-        metus lobortis, quis vestibulum dolor pulvinar. In euismod congue nisi
-        at laoreet. Vestibulum ante justo, sodales in maximus eu, fringilla
-        imperdiet eros. Duis molestie condimentum neque in rutrum. Proin
-        interdum, neque sed dignissim condimentum, risus odio scelerisque magna,
-        id varius erat nulla in dui. Fusce a justo ex. Etiam sed bibendum velit.
-        Etiam dictum est at ipsum pellentesque, nec elementum lectus ultricies.
-        Mauris sed massa malesuada, blandit nunc vel, suscipit nisi. Nulla
-        maximus purus a metus lobortis, quis vestibulum dolor pulvinar. In
-        euismod congue nisi at laoreet. assadsadsad
+        Po raz kolejny zapraszamy na nasze tradycyjne Kolędowanie w Gołębniku.
+        Tegoroczny wieczór kolęd uświetni zespół <a className="text-blue hover:text-gold" href="https://www.facebook.com/profile.php?id=100071649979747" target="_blank">„Bel Trio”</a> (zapraszamy do wysłuchania ich przepięknego <a className="text-blue hover:text-gold" href="https://fb.watch/h-Fyl5qjld" target="_blank">wykonania Kołysanki Józefa</a>). Nim zaczniemy wspólnie muzykować, zapoznamy się z krótką historią kolędowania oraz prezentacją dotyczącą kolędy ludowej, nie zabraknie także poczęstunku.
       </p>
+      <p>
+        Miejscem kolędowania będzie <b className="text-red">strefa studencka Wydziału Polonistyki UJ</b> (ul. Gołębia 20, sala 15, piętro I), spotkamy się tam <b className="text-red">23 stycznia o godzinie 18.30</b>.
+      </p>
+      <p>Do zobaczenia!</p>
+      </div>
     </div>
   );
 }
