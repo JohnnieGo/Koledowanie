@@ -21,11 +21,11 @@ function App() {
   }, []);
 
   const songsComponents = songs.map((e, i) => {
-    console.log("ok");
+
     return (
       <Route
         key={(e.title + " comp").toLowerCase().replace(/ /g, "-")}
-        path={encodeURI("/" + e["title"].toLowerCase().replace(/ /g, "-"))}
+        path={encodeURI("/Koledowanie/" + e["title"].toLowerCase().replace(/ /g, "-"))}
       >
         <Song title={e.title} text={e.text} />
       </Route>
@@ -50,9 +50,9 @@ function App() {
             />
             <div className="w-full h-full flex flex-col lg:overflow-y-auto">
               <Switch>
-                <Route path="/" component={Content} />
-                <Route path="/o-nas" component={About} />
-                <Route path="/spiewnik" component={Songbook} />
+                <Route path="/koledowanie/" component={Content} />
+                <Route path="/koledowanie/o-nas" component={About} />
+                <Route path="/koledowanie/spiewnik" component={Songbook} />
                 {songsComponents}
               </Switch>
             </div>

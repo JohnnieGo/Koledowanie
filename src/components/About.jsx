@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="h-full lg:overflow-y-auto">
       <div className="flex pb-2 sm:pb-4 md:pb-6 content-center flex-wrap gap-2 w-full ">
-        <Link href="/">
+        <Link href="/Koledowanie/">
           <div className="flex items-center">
             <svg
               className="fill-red hover:fill-gold cursor-pointer z-10"

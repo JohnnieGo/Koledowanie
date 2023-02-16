@@ -28,8 +28,8 @@ const Content = () => {
           </div>
         </div>
         <div className="justify-self-end mt-8 pb-10">
-          <Button name="Więcej o kolędowaniu" color="red" link="/o-nas" />
-          <Button name="Zobacz śpiewnik" color="blue" link="/spiewnik" />
+          <Button name="Więcej o kolędowaniu" color="red" link="/Koledowanie/o-nas" />
+          <Button name="Zobacz śpiewnik" color="blue" link="/Koledowanie/spiewnik" />
         </div>
         <div className="flex flex-col justify-center items-center gap-2">
           <span className="font-serif">
@@ -64,5 +64,3 @@ const Content = () => {
   );
 };
 export default Content;
-
-// 2xl: xl: lg: md: sm:

@@ -7,7 +7,7 @@ const songList = songs.map((e, i) => {
   return (
     <Link
       key={(e.title + " listEl").toLowerCase().replace(/ /g, "-")}
-      href={encodeURI("/" + e["title"].toLowerCase().replace(/ /g, "-"))}
+      href={encodeURI("/Koledowanie/" + e["title"].toLowerCase().replace(/ /g, "-"))}
     >
       <p className="cursor-pointer inline-block w-max hover:text-gold active:text-gold sm: pb-1 tex sm:text-xl md:text-2xl">
         {i + 1 + ". " + e["title"]}
@@ -16,13 +16,11 @@ const songList = songs.map((e, i) => {
   );
 });
 
-console.log(songList);
-
 function Songbook() {
   return (
     <>
       <div className="flex pb-2 sm:pb-4 md:pb-6 content-center flex-wrap gap-2 w-full z-10">
-        <Link href="/">
+        <Link href="/Koledowanie/">
           <div className="flex items-center">
             <svg
               className="fill-red hover:fill-gold cursor-pointer"
