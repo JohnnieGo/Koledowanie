@@ -1,58 +1,35 @@
-:root{
-    font-family:'Vinque', 'Arial Narrow', Arial, sans-serif;
-    background-image: url('./assets/bg_frag.png');
-    background-size:auto;
-    background-color: #DBCCB8;
-    /* overflow-x: hidden; */
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    -webkit-tap-highlight-color: transparent;
-
+:root {
+  font-family: "Vinque", "Arial Narrow", Arial, sans-serif;
+  background-image: url("./assets/bg_frag.png");
+  background-size: auto;
+  background-color: #dbccb8;
+  /* overflow-x: hidden; */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 
-.border{
-    border-image-source: url('./assets/frame.png');
-    border-image-repeat: repeat;
-    border-image-slice: 40 40 40 40;
-    border-image-width: 20px 20px 20px 20px;
+.border {
+  border-image-source: url("./assets/frame.png");
+  border-image-repeat: repeat;
+  border-image-slice: 40 40 40 40;
+  border-image-width: 20px 20px 20px 20px;
 }
 
-/* .forward-enter {
-    opacity: 0;
-    transform: translateX(100%);
-  }
-  
-  .forward-enter-active {
-    opacity: 1;
-    transform: translateX(0);
-    transition: all 500ms;
-  }
-  
-  .forward-exit {
-    opacity: 0;
-    transform: translateX(0);
-  }
-  
-  .forward-exit-active {
-    opacity: 0;
-    transform: translateX(-100%);
-    transition: all 500ms;
-  } */
-
-  .forward-enter {
-    opacity: 0;
-    transform: scale(1.1);
-  }
-  .forward-enter-active {
-    opacity: 1;
-    transform: scale(1);
-    transition: opacity 300ms, transform 300ms;
-  }
-  .forward-exit {
-    opacity: 1;
-    transform: scale(1);
-  }
-  .forward-exit-active {
-    opacity: 0;
-    transform: scale(0.9);
-    transition: opacity 350ms, transform 350ms;
-  }
+.forward-enter {
+  opacity: 0;
+  transform: scale(1.1);
+}
+.forward-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 300ms, transform 300ms;
+}
+.forward-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+.forward-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 350ms, transform 350ms;
+}

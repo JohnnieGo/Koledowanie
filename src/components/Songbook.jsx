@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Route } from "wouter";
+import { Link } from "wouter";
 
 import songs from "../assets/songs";
 

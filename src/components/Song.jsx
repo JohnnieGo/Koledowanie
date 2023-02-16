@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Route } from "wouter";
+import { Link } from "wouter";
 
 function Song(props) {
   return (
@@ -21,7 +21,9 @@ function Song(props) {
           {props.title}
         </h1>
       </div>
-      <p className="whitespace-pre-wrap text-l sm:text-xl font-serif">{props.text}</p>
+      <p className="whitespace-pre-wrap text-l sm:text-xl font-serif">
+        {props.text}
+      </p>
     </>
   );
 }

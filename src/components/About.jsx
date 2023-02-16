@@ -22,14 +22,35 @@ function About() {
         </h1>
       </div>
       <div className="font-serif text-xl flex flex-col gap-4">
-      <p>
-        Po raz kolejny zapraszamy na nasze tradycyjne Kolędowanie w Gołębniku.
-        Tegoroczny wieczór kolęd uświetni zespół <a className="text-blue hover:text-gold" href="https://www.facebook.com/profile.php?id=100071649979747" target="_blank">„Bel Trio”</a> (zapraszamy do wysłuchania ich przepięknego <a className="text-blue hover:text-gold" href="https://fb.watch/h-Fyl5qjld" target="_blank">wykonania Kołysanki Józefa</a>). Nim zaczniemy wspólnie muzykować, zapoznamy się z krótką historią kolędowania oraz prezentacją dotyczącą kolędy ludowej, nie zabraknie także poczęstunku.
-      </p>
-      <p>
-        Miejscem kolędowania będzie <b className="text-red">strefa studencka Wydziału Polonistyki UJ</b> (ul. Gołębia 20, sala 15, piętro I), spotkamy się tam <b className="text-red">23 stycznia o godzinie 18.30</b>.
-      </p>
-      <p>Do zobaczenia!</p>
+        <p>
+          Po raz kolejny zapraszamy na nasze tradycyjne Kolędowanie w Gołębniku.
+          Tegoroczny wieczór kolęd uświetni zespół{" "}
+          <a
+            className="text-blue hover:text-gold"
+            href="https://www.facebook.com/profile.php?id=100071649979747"
+            target="_blank"
+          >
+            „Bel Trio”
+          </a>{" "}
+          (zapraszamy do wysłuchania ich przepięknego{" "}
+          <a
+            className="text-blue hover:text-gold"
+            href="https://fb.watch/h-Fyl5qjld"
+            target="_blank"
+          >
+            wykonania Kołysanki Józefa
+          </a>
+          ). Nim zaczniemy wspólnie muzykować, zapoznamy się z krótką historią
+          kolędowania oraz prezentacją dotyczącą kolędy ludowej, nie zabraknie
+          także poczęstunku.
+        </p>
+        <p>
+          Miejscem kolędowania będzie{" "}
+          <b className="text-red">strefa studencka Wydziału Polonistyki UJ</b>{" "}
+          (ul. Gołębia 20, sala 15, piętro I), spotkamy się tam{" "}
+          <b className="text-red">23 stycznia o godzinie 18.30</b>.
+        </p>
+        <p>Do zobaczenia!</p>
       </div>
     </div>
   );

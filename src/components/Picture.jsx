@@ -1,6 +1,5 @@
-import React, { useState, useEffect, useRef } from "react";
-import { Link, Route, Router, Switch, useLocation, useRoute } from "wouter";
-
+import React, { useEffect, useRef } from "react";
+import { useLocation } from "wouter";
 
 const Picture = () => {
   const location = useLocation();
@@ -15,11 +14,13 @@ const Picture = () => {
   console.log(count.current);
 
   return (
-  <>
-   <img
-      src={"obrazek" + count.current + ".png"}
-      className=" " loading="lazy"/>
-  </>
+    <>
+      <img
+        src={"picture" + count.current + ".png"}
+        className=" "
+        loading="lazy"
+      />
+    </>
   );
 };
 export default Picture;
